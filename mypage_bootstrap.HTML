@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <title>About Me</title>
+    </head>
+    <body>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <div class="container">
+        <h1>
+        Beisser, Laura -
+        <small class="text-muted"> Software Development Tools and Methods</small>
+        </h1>
+      </div>
+      <div class="card bg-light">
+        <div class="card-body">
+          I am from a small town in Virginia, I love to bake and decorate cakes, and my favorite animal is the otter.
+          I chose to study computer science beacuse the posisbilities for what you can do with it are endless!
+        </div>
+      </div>
+      <h2> My Professional Profile </h2>
+      <a class="btn btn-secondary" href="https://github.com/LauraBeisser" role="button">My Github</a>
+      <br>
+      <img src="myPicture.JPG" class="rounded-circle" alt="Image currently unavailable" height="500" width="700">
+      <br>
+      <h3> My Favorite Projects </h3>
+      <table class="table">
+        <thead>
+          <th scope="col"> Project Name </th>
+          <th scope="col"> Technologies Used </th>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"> Flight Finder </th>
+            <td>C++, BST</td>
+          </tr>
+          <tr>
+            <th scope="row"> Website </th>
+            <td>HTML</td>
+          </tr>
+          <tr>
+            <th scope="row"> Task Tracker </th>
+            <td>HTML,CSS </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <!-- Look into making this a grid system????? -->
+      <!-- <p>
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#Countries">Countries Travelled</button>
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#Interests">My Interests</button>
+      </p> -->
+      <div class ="row">
+      <div class = "col-sm">
+      <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#Countries">Countries Travelled</button>
+      <div id="Countries" class="collapse">
+        <div class="card card-body">
+          <ul style="list-style-type:disc;">
+            <li>Iceland</li>
+            <li>Ireland</li>
+            <li>Germany</li>
+            <li>Austria</li>
+            <li>Italy</li>
+            <li>Sweden</li>
+            <li>Switzerland</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class = "col-sm">
+      <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#Interests">My Interests</button>
+      <div id="Interests" class="collapse">
+        <div class="card card-body">
+          <ol type="1">
+            <li>Baking</li>
+            <li>Reading</li>
+            <li>Horses</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br></br>
+      <!-- This collapse thing ends here;) -->
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+  Click ME!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">That's All Folks!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        :)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+  </html>
